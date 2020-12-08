@@ -1,6 +1,9 @@
 import argparse
 import os, sys, subprocess, shlex, re
-from subprocess import call
+
+# podem executarlo des de terminal posant el video en questio
+# EXEMPLE:
+# python3 videoData.py 'video.mp4'
 
 parser = argparse.ArgumentParser(description='Get video information')
 parser.add_argument('in_filename', help='Input filename')
